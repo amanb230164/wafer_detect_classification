@@ -1,2 +1,32 @@
-# wafer_detect_classification
-Deep Learning based Wafer Defect Classification using CNN and Streamlit on the WM-811K semiconductor wafer dataset.
+# Wafer Defect Classification
+
+A deep learning based wafer defect classification system using CNN and Streamlit.
+
+## Features
+
+- 9 defect classes
+- CNN-based classifier
+- Streamlit deployment
+- Accuracy: 80%
+- Macro F1 Score: 0.79
+
+## Dataset
+
+WM-811K Semiconductor Wafer Dataset
+
+## Classes
+
+- Center
+- Donut
+- Edge-Loc
+- Edge-Ring
+- Loc
+- Near-full
+- Random
+- Scratch
+- none
+
+## Run
+
+```bash
+streamlit run app.py
